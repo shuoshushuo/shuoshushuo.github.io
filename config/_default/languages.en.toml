@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Chen Lab"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/langone_nki_logo.png"
+  description = "A powerful, lightweight theme for Hugo."
+
+[author]
+  name = "Chen Lab"
+  image = "img/langone_nki_logo.png"
+#  image_may = "img/may_logo.png"
+  headline = ""
+  bio = ""
+  links = [
+    { x-twitter = "https://twitter.com/burufugu" },
+    { github = "https://github.com/nunocoracao/blowfish" },
+  ]
