@@ -24,11 +24,16 @@
 
   {{ if .Site.Params.sponsor }}
     <div class="sponsor-logos flex justify-center items-center space-x-4 py-4">
-        {{ range .Site.Params.sponsor.indices }}
-          <a href="{{ .link }}" target="_blank" class="sponsor-link">
-              <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-16 mx-2">
-          </a>
+<!--        {{ range .Site.Params.sponsor.indices }}-->
+<!--          <a href="{{ .link }}" target="_blank" class="sponsor-link">-->
+<!--              <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-16 mx-2">-->
+<!--          </a>-->
+<!--        {{ end }}-->
+      {{ with .Site.Params.sponsor.indices }}
+        {{ range . }}
+          <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-16 mx-2" />
         {{ end }}
+      {{ end }}
     </div>
   {{ end }}
 

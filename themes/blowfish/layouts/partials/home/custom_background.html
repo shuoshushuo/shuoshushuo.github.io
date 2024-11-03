@@ -1,0 +1,81 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<article class="max-w-full prose dark:prose-invert">
+    <div class="relative">
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+        <div class="mx-auto max-w-7xl p-0">
+            <div class="relative sm:overflow-hidden">
+                <div class="fixed inset-x-0 top-0" style="z-index:-10">
+                    {{ $homepageImage := "" }}
+                    {{ with .Site.Params.defaultBackgroundImage }}
+                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                            {{ $homepageImage = resources.GetRemote . }}
+                        {{ else }}
+                            {{ $homepageImage = resources.Get . }}
+                        {{ end }}
+                    {{ end }}
+                    {{ if $homepageImage }}
+                    <img class="w-full h-[1000px] object-cover m-0 nozoom" src="{{ $homepageImage.RelPermalink }}" role="presentation">
+                    <div
+                        class="absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+                    </div>
+                    <div
+                        class="opacity-0 absolute inset-0 h-[1000px] bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="relative pt-16 pb-32">
+                    <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
+                    <div class="relative">
+                        <div class="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+                            <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+<!--                                <article class="max-w-full prose dark:prose-invert pt-2 p-5 mt-2 rounded-xl backdrop-blur-xl shadow-2xl">-->
+<!--                                <article class="max-w-full prose dark:prose-invert pt-2 p-5 mt-2 rounded-xl backdrop-blur-2xl">-->
+                                <article class="max-w-full prose dark:prose-invert">
+                                    <section>{{ .Content | emojify }}</section>
+                                </article>
+                            </div>
+                            <div class="mt-6 sm:mt-16 lg:mt-0 mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+                                <div class="-mr-48 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 " style="width:100%">
+                                    {{ $homepageImage := "" }}
+                                    {{ with .Site.Params.defaultBackgroundImage }}
+                                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                                            {{ $homepageImage = resources.GetRemote . }}
+                                        {{ else }}
+                                            {{ $homepageImage = resources.Get . }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ with .Site.Params.homepage.homepageImage }}
+                                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                                            {{ $homepageImage = resources.GetRemote . }}
+                                        {{ else }}
+                                            {{ $homepageImage = resources.Get . }}
+                                        {{ end }}
+                                    {{ end }}
+                                    {{ if $homepageImage }}
+                                        <div class="flex items-center lg:relative lg:h-full lg:px-0 -mr-48 md:-mr-16 lg:m-0" style="width: 100%;">
+                                            <img class="w-full rounded-xl shadow-xl lg:absolute lg:left-0 lg:h-auto lg:max-h-3/4 lg:w-auto"
+                                                 src="{{ $homepageImage.RelPermalink }}">
+                                        </div>
+                                    {{ end }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+<section>
+    {{ partial "recent-articles/main.html" . }}
+</section>
+{{ if .Site.Params.homepage.layoutBackgroundBlur | default false }}
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+{{ end }}
