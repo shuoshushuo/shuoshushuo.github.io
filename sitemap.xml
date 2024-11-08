@@ -8,12 +8,22 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chenlab.github.io/people/g/</loc>
+    <loc>https://chenlab.github.io/people/i/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chenlab.github.io/people/shuo-chen/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chenlab.github.io/people/b/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chenlab.github.io/people/j/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -38,38 +48,41 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chenlab.github.io/benchmarks/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+    <loc>https://chenlab.github.io/people/g/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chenlab.github.io/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+    <loc>https://chenlab.github.io/people/h/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chenlab.github.io/tags/sample/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-01T04:38:30-04:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chenlab.github.io/tags/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-01T04:38:30-04:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chenlab.github.io/tags/team/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-01T04:38:30-04:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chenlab.github.io/team/</loc>
-    <lastmod>2020-08-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-11-01T04:38:30-04:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://chenlab.github.io/people/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -84,27 +97,20 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chenlab.github.io/people/</loc>
+    <loc>https://chenlab.github.io/</loc>
+    <lastmod>2024-11-01T04:38:30-04:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://chenlab.github.io/data/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://chenlab.github.io/data/multiagent/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://chenlab.github.io/data/multitraversal/</loc>
+    <loc>https://chenlab.github.io/contact/</loc>
+    <lastmod>2024-11-08T01:25:43-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://chenlab.github.io/research/</loc>
+    <lastmod>2024-11-08T01:25:43-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
