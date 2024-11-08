@@ -111,11 +111,6 @@
   pageRef = "people"
   weight = 50
 
-#[[main]]
-#  name = "Life"
-#  pageRef = "life"
-#  weight = 50
-
 [[main]]
   name = "Contact"
   pageRef = "contact"

@@ -1,7 +1,6 @@
 ---
 title: "Research"
 
-description: "Team members from NYU and May Mobility"
 ---
  
 Our lab’s research focuses on elucidating how memory is 
