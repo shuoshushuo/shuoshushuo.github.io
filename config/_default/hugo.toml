@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://chenlab.github.io"
+baseURL = "https://shuolab.github.io"
 defaultContentLanguage = "en"
 disableLanguages = ['it'] #to allow translation work requiring shipping to production
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles

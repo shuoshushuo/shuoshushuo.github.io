@@ -1,9 +1,9 @@
 ---
-title: C
+title: Karen Ha
 
 user_group: "Current Members"
 
-role: 'B.S. in Mechanical Engineering'
+role: 'B.S. in Biology'
 
 externalUrl: 
 

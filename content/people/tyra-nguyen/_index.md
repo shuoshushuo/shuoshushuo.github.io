@@ -1,9 +1,9 @@
 ---
-title: F
+title: Tyra Nguyen
 
 user_group: "Current Members"
 
-role: 'M.S. in Electrical Engineering'
+role: 'B.S. in Biology'
 
 externalUrl: 
 

@@ -1,19 +1,19 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Chen Lab"
+title = "Shuo Lab"
 
 [params]
   displayName = "English"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/langone_nki_logo.png"
+  logo = "img/logo.png"
   description = "A powerful, lightweight theme for Hugo."
 
 [author]
   name = "Chen Lab"
-  image = "img/langone_nki_logo.png"
+  image = "img/logo.png"
 #  image_may = "img/may_logo.png"
   headline = ""
   bio = ""

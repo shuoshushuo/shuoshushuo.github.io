@@ -1,7 +1,7 @@
 ---
-title: D
+title: Cong Li
 
-user_group: "Current Members"
+user_group: "Visiting Scholars"
 
 role: 'M.S. in Biology'
 

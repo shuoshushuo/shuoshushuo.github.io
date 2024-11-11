@@ -1,0 +1,51 @@
+<div class="relative pt-16 pb-32">
+    <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
+    <div class="relative">
+          {{ with .Title }}
+            <header>
+                <h1>{{ . | emojify }}</h1>
+            </header>
+          {{ end }}
+        <div class="container">
+            <h1>Elucidating and Rescuing Memory</h1>
+            {{ $homepageImage := "" }}
+            {{ with .Site.Params.defaultBackgroundImage }}
+                {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                    {{ $homepageImage = resources.GetRemote . }}
+                {{ else }}
+                    {{ $homepageImage = resources.Get . }}
+                {{ end }}
+            {{ end }}
+            {{ with .Site.Params.homepage.homepageImage }}
+                {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                    {{ $homepageImage = resources.GetRemote . }}
+                {{ else }}
+                    {{ $homepageImage = resources.Get . }}
+                {{ end }}
+            {{ end }}
+            {{ if $homepageImage }}
+                <img class="w-full rounded-xl shadow-xl lg:absolute lg:left-0 lg:h-auto lg:w-full lg:max-w-none justify-center"
+                                 src="{{ $homepageImage.RelPermalink }}">
+            {{ end }}
+            <div class="content">
+                <div class="text-section">
+                    <p>Some treasured life experiences, such as the first step onto college campus or the first glimpse of a loved one, can remain etched in our memories for a lifetime. Where and how different memories – an episode of life experience or a concept about a person – reside in the brain remains a mystery. We are intrigued by long-standing questions such as:</p>
+                    <p>If these mechanisms are deciphered, we might be able to read and manipulate memories, such as rescuing memory and cognition in <span class="highlight">Alzheimer's disease</span> and erasing traumatic memories associated with PTSD.</p>
+                </div>
+                <div class="text-section">
+                    <p class="highlight">How do neural networks <b>encode and store</b> episodic and semantic information?</p>
+                    <p class="highlight">How is the stored information <b>retrieved and utilized</b> to support cognitive processes such as thinking, planning, and imagination?</p>
+                    <p class="highlight">What molecules underpin memory and cognitive processes, especially the storage of memory?</p>
+                </div>
+                <div class="image-section">
+                    <img src="bottom-image.png" alt="Microscopic brain structure image">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<section>
+    {{ partial "recent-articles/main.html" . }}
+</section>
+

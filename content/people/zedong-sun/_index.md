@@ -1,7 +1,7 @@
 ---
-title: B
+title: Zedong Sun
 
-user_group: "Alumni"
+user_group: "Current Members"
 
 role: 'M.S. in Biology'
 

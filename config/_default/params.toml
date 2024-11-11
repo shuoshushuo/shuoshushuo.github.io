@@ -9,7 +9,7 @@ colorScheme = "nyu"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = false
 
-enableSearch = true
+enableSearch = false
 enableCodeCopy = true
 
 mainSections = ["docs"]
@@ -34,9 +34,9 @@ smartTOCHideUnfocusedChildren = false
 
 [footer]
   showMenu = true
-  showCopyright = true
-  showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showCopyright = false
+  showThemeAttribution = false
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [sponsor]
@@ -53,8 +53,9 @@ smartTOCHideUnfocusedChildren = false
     weight = 20
 
 [homepage]
-  layout = "custom_card" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "/img/homepage.jpg" # used in: hero, and card
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "/img/homepage_1.jpg" # used in: hero, and card
+  homepageImage_2 = "/img/homepage_2.jpg"
   showRecent = false
   showRecentItems = 6
   showMoreLink = true

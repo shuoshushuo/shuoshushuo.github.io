@@ -1,4 +1,5 @@
-<footer id="site-footer" class="py-10 print:hidden">
+<!--<footer id="site-footer" class="py-4 print:hidden absolute opacity-0 inset-x-0 bottom-0 bg-neutral-200 dark:bg-neutral-800">-->
+<footer id="site-footer" class="py-4 print:hidden">
   {{/* Footer menu */}}
   {{ if .Site.Params.footer.showMenu | default true }}
     {{ if .Site.Menus.footer }}
@@ -22,8 +23,10 @@
     {{ end }}
   {{ end }}
 
+
   {{ if .Site.Params.sponsor }}
-    <div class="sponsor-logos flex justify-center items-center space-x-4 py-4">
+  <div class="footer bg-neutral-200 py-2">
+    <div class="flex items-start max-w-3xl mx-auto">
 <!--        {{ range .Site.Params.sponsor.indices }}-->
 <!--          <a href="{{ .link }}" target="_blank" class="sponsor-link">-->
 <!--              <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-16 mx-2">-->
@@ -31,11 +34,14 @@
 <!--        {{ end }}-->
       {{ with .Site.Params.sponsor.indices }}
         {{ range . }}
-          <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-16 mx-2" />
+          <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-10" style="margin-right:2rem" />
         {{ end }}
       {{ end }}
     </div>
+  </div>
   {{ end }}
+
+
 
 
   <div class="flex items-center justify-between">

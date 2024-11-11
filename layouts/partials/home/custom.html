@@ -1,34 +1,52 @@
-<div class="relative pt-16 pb-32">
+<div class="relative pt-4 pb-32">
     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
     <div class="relative">
-        <div class="lg:mx-auto lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
-            <div class="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
-                <article class="max-w-full prose dark:prose-invert">
-                    <section>{{ .Content | emojify }}</section>
-                </article>
-            </div>
-            <div class="mt-6 sm:mt-16 lg:mt-0 mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
-                <div class="-mr-48 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0 " style="width:100%">
-                    {{ $homepageImage := "" }}
-                    {{ with .Site.Params.defaultBackgroundImage }}
+        {{ with .Title }}
+        <header>
+            <h1 class="text-4xl font-extrabold">{{ . | emojify }}</h1>
+        </header>
+        {{ end }}
+        <div class="mx-auto lg:grid lg:max-w-full lg:px-0 py-8 lg:m-0">
+            {{ $homepageImage := "" }}
+            {{ with .Site.Params.homepage.homepageImage }}
+                {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+                    {{ $homepageImage = resources.GetRemote . }}
+                {{ else }}
+                    {{ $homepageImage = resources.Get . }}
+                {{ end }}
+            {{ end }}
+            {{ if $homepageImage }}
+                <img class="w-full" src="{{ $homepageImage.RelPermalink }}">
+            {{ else }}
+                <p>Homepage image not found</p>
+            {{ end }}
+        </div>
+
+        <section>{{ .Content | emojify }}</section>
+
+        <div class="mx-auto article_content lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-40-60">
+            {{ with .Params.content_left }}
+                <div class="mx-auto px-4 lg:mx-0 lg:max-w-none lg:py-0 lg:px-0">
+                    {{ . | markdownify }}
+                </div>
+            {{ end }}
+            <div class="grid mx-auto px-4 lg:mx-0 lg:max-w-none lg:py-0 lg:px-0 py-4">
+                {{ with .Params.content_right }}
+                    <div class="mx-auto lg:mx-0 lg:max-w-none lg:py-0 lg:px-0">
+                        {{ . | emojify | markdownify }}
+                    </div>
+                {{ end }}
+                <div class="relative mx-auto lg:mx-0 lg:max-w-none lg:py-0 lg:px-0 py-4">
+                    {{ $homepageImage2 := "" }}
+                    {{ with .Site.Params.homepage.homepageImage_2 }}
                         {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-                            {{ $homepageImage = resources.GetRemote . }}
+                            {{ $homepageImage2 = resources.GetRemote . }}
                         {{ else }}
-                            {{ $homepageImage = resources.Get . }}
+                            {{ $homepageImage2 = resources.Get . }}
                         {{ end }}
                     {{ end }}
-                    {{ with .Site.Params.homepage.homepageImage }}
-                        {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-                            {{ $homepageImage = resources.GetRemote . }}
-                        {{ else }}
-                            {{ $homepageImage = resources.Get . }}
-                        {{ end }}
-                    {{ end }}
-                    {{ if $homepageImage }}
-                        <div class="flex items-center lg:relative lg:h-full lg:px-0 -mr-48 md:-mr-16 lg:m-0" style="width: 100%;">
-                            <img class="w-full rounded-xl shadow-xl lg:absolute lg:left-0 lg:h-auto lg:w-auto"
-                                 src="{{ $homepageImage.RelPermalink }}">
-                        </div>
+                    {{ if $homepageImage2 }}
+                        <img class="h-auto w-auto" src="{{ $homepageImage2.RelPermalink }}">
                     {{ end }}
                 </div>
             </div>
@@ -38,3 +56,4 @@
 <section>
     {{ partial "recent-articles/main.html" . }}
 </section>
+
