@@ -7,26 +7,6 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Fri, 14 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://shuolab.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>sample</title>
-      <link>https://shuolab.github.io/tags/sample/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://shuolab.github.io/tags/sample/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>team</title>
-      <link>https://shuolab.github.io/tags/team/</link>
-      <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://shuolab.github.io/tags/team/</guid>
-      <description></description>
-      
-    </item>
-    
+    <atom:link href="https://shuolab.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
