@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>G on Shuo Lab</title>
+    <title>Yvonne Xu on Shuo Lab</title>
     <link>https://shuolab.github.io/people/yvonne-xu/</link>
-    <description>Recent content in G on Shuo Lab</description>
+    <description>Recent content in Yvonne Xu on Shuo Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    
+    <copyright>© 2024 Chen Lab</copyright>
     <atom:link href="https://shuolab.github.io/people/yvonne-xu/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

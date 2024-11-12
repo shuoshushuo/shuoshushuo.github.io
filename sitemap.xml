@@ -14,18 +14,13 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shuolab.github.io/people/cong-li/</loc>
-    <lastmod>2024-11-11T00:44:48-05:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://shuolab.github.io/people/yvonne-xu/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://shuolab.github.io/people/jasper-kamb/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shuolab.github.io/people/zedong-sun/</loc>
+    <lastmod>2024-11-11T00:44:48-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -47,13 +42,18 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shuolab.github.io/people/xiaoyi-yang/</loc>
+    <loc>https://shuolab.github.io/people/yvonne-xu/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shuolab.github.io/people/cong-li/</loc>
     <lastmod>2024-11-11T00:44:48-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shuolab.github.io/people/zedong-sun/</loc>
+    <loc>https://shuolab.github.io/people/xiaoyi-yang/</loc>
     <lastmod>2024-11-11T00:44:48-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -65,8 +65,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://shuolab.github.io/contact/</loc>
+    <lastmod>2024-11-08T01:25:43-05:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://shuolab.github.io/people/</loc>
     <lastmod>2024-11-08T01:37:38-05:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shuolab.github.io/publications/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://shuolab.github.io/research/</loc>
+    <lastmod>2024-11-08T01:25:43-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -81,20 +98,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://shuolab.github.io/contact/</loc>
-    <lastmod>2024-11-08T01:25:43-05:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://shuolab.github.io/</loc>
     <lastmod>2024-11-11T00:44:48-05:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://shuolab.github.io/research/</loc>
-    <lastmod>2024-11-08T01:25:43-05:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
