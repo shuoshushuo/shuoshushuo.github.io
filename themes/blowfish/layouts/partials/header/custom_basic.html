@@ -17,7 +17,7 @@
     <div class="flex flex-1 items-center">
         <nav class="flex space-x-3">
             {{ if not .Site.Params.disableTextInHeader | default true }}
-            <a href="{{ "" | relLangURL }}" class="text-4xl font-normal text-gray-500 hover:text-gray-900">
+            <a href="{{ "" | relLangURL }}" class="text-header-title font-normal text-gray-500 hover:text-gray-900">
             {{ .Site.Title | markdownify | emojify }}</a>
             {{ end }}
         </nav>

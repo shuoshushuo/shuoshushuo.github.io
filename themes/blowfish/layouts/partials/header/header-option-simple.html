@@ -5,7 +5,14 @@
         {{ partial "icon.html" .Pre }}
     </span>
     {{ end }}
-    <p class="text-base font-normal" title="{{ .Title }}">
-        {{ .Name | markdownify | emojify }}
-    </p>
+<!--TODO: italic Join Us-->
+    {{ if eq .Name "Contact/Join Us!" }}
+        <p class="text-header font-normal text-neutral-500 hover:text-primary-450" title="{{ .Title }}">
+            Contact/<em>Join Us!</em>
+        </p>
+    {{ else }}
+        <p class="text-header font-normal text-neutral-500 hover:text-primary-450" title="{{ .Title }}">
+            {{ .Name | markdownify | emojify }}
+        </p>
+    {{ end }}
 </a>

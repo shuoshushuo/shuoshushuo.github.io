@@ -26,14 +26,15 @@
   {{ if .Site.Params.sponsor }}
   <div class="footer bg-neutral-200 py-2">
     <div class="flex items-start max-w-3xl mx-auto">
-<!--        {{ range .Site.Params.sponsor.indices }}-->
-<!--          <a href="{{ .link }}" target="_blank" class="sponsor-link">-->
-<!--              <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-16 mx-2">-->
-<!--          </a>-->
-<!--        {{ end }}-->
       {{ with .Site.Params.sponsor.indices }}
         {{ range . }}
-          <img src="{{ .img }}" alt="{{ .name }}" class="sponsor-logo h-10" style="margin-right:2rem" />
+          <div class="flex items-center">
+            <img src="{{ .img }}" alt="{{ .name }}" class="h-10 pr-2"/>
+          </div>
+          <div class="self-center text-subtitle w-2xl text-neutral-800" style="margin-right:1rem">
+              {{ .name }}
+          </div>
+
         {{ end }}
       {{ end }}
     </div>

@@ -11,9 +11,9 @@ Namiki K, Hama H, Therreau L, Hioki H, Miyawaki A, Piskorowski RA, McHugh TJ.
 [A hypothalamic novelty signal modulates hippocampal memory](https://www.nature.com/articles/s41586-020-2771-1). 
 *Nature*. 586:270–274 (2020).
 <br/>
-<span class="text-neutral-500">
-Also see: <br/>
-Trends in Neurosciences Spotlight: Parallel pathways for mnemonic processing
+<span class="text-neutral-900">
+Featured in: <br/>
+<a href="https://www.sciencedirect.com/science/article/abs/pii/S0166223620302654" class="text-neutral-900">*Trends in Neurosciences* Spotlight: Parallel pathways for mnemonic processing</a>
 </span>
 
 Chen S. 
@@ -30,10 +30,15 @@ KL, Okabe S, Loong Teh DB, All AH, Tsutsui-Kimura I, Tanaka KF, Liu X, McHugh TJ
 [Near-infrared deep brain stimulation via upconversion nanoparticle-mediated optogenetics.](https://www.science.org/doi/10.1126/science.aaq1144)
 *Science*. 359:679–684 (2018).
 <br/>
-<span class="text-neutral-500">
-Also see: <br/>
-Science Perspective: Toward an optically controlled brain <br/>
-Nature Methods Research Highlights: Minimally invasive optogenetics
+<span class="text-neutral-900">
+Featured in: <br/>
+<a href="https://www.science.org/doi/10.1126/science.aar7379?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed" class="text-neutral-900">
+    *Science Perspective*: Toward an optically controlled brain
+</a>
+<br>
+<a href="https://www.nature.com/articles/nmeth.4654" class="text-neutral-900">
+    *Nature Methods* Research Highlights: Minimally invasive optogenetics
+</a>
 </span>
 
 Middleton SJ, Kneller EM, Chen S, Ogiwara I, Montal M, Yamakawa K, McHugh TJ. 
@@ -49,7 +54,7 @@ Chen S, Itoh Y, Masuda T, Shimizu S, Zhao J, Ma J, Nakamura S, Okuro K, Noguchi 
 
 
 
-<div class="text-primary-500 text-2xl pt-4"> All Publications </div>
+<div class="text-primary-500 text-2xl pt-12"> All Publications </div>
 <div class="border-b-1 py-1"></div>
 
 Mao H, Tang J, Day GS, Peng Y, Wang H, Xiao X, Yang Y, Jiang Y, Chen S, Halat DM, Lund A, Lv X, Zhang W, Yang C, 

@@ -41,13 +41,13 @@ smartTOCHideUnfocusedChildren = false
 
 [sponsor]
   [[sponsor.indices]]
-    name = "Nathan Kline Institute"
+    name = "The Nathan S. Kline Institute for Psychiatric Research"
     link = "https://www.nki.rfmh.org/"
     img = "/img/nki_logo.png"
     weight = 10
 
   [[sponsor.indices]]
-    name = "NYU Langone Health"
+    name = "New York University Grossman School of Medicine"
     link = "https://med.nyu.edu/"
     img = "/img/langone_logo.png"
     weight = 20
@@ -55,9 +55,9 @@ smartTOCHideUnfocusedChildren = false
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
   homepageImage = "/img/homepage_1.jpg" # used in: hero, and card
-  homepageImage_description = "Axons (green) from the hypothalamus innervate the hippocampus in the mouse brain"
+  homepageImage_description = "Axons (green) from the hypothalamus innervate the hippocampus in the mouse brain."
   homepageImage_2 = "/img/homepage_2.jpg"
-  homepageImage_2_description = "Uptake of nanoparticles that mediate near-infrared optogenetics by axons."
+  homepageImage_2_description = "Uptake of upconversion nanoparticles by axons."
   showRecent = false
   showRecentItems = 6
   showMoreLink = true

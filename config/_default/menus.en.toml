@@ -112,7 +112,7 @@
   weight = 50
 
 [[main]]
-  name = "Contact"
+  name = "Contact/Join Us!"
   pageRef = "contact"
   weight = 90
 

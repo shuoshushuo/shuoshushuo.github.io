@@ -60,8 +60,9 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
+  /*TODO: font use Aptos-Narrow*/
   /*font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-  font-family: "Aptos", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Aptos-Narrow", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -1164,14 +1165,14 @@ select {
 }
 
 b, strong {
-  color:rgba(var(--color-primary-500), 1);
+  color:rgba(var(--color-primary-450), 1);
 }
 
 .prose {
   --tw-prose-body:rgba(var(--color-neutral-900), 1);
   --tw-prose-headings:rgba(var(--color-neutral-800), 1);
   --tw-prose-lead:rgba(var(--color-neutral-500), 1);
-  --tw-prose-links:rgba(var(--color-primary-600), 1);
+  --tw-prose-links:rgba(var(--color-primary-500), 1);
   --tw-prose-bold:rgba(var(--color-neutral-900), 1);
   --tw-prose-counters:rgba(var(--color-neutral-800), 1);
   --tw-prose-bullets:rgba(var(--color-neutral-500), 1);
@@ -2834,6 +2835,18 @@ b, strong {
   padding-right:24px
 }
 
+.pr-2 {
+  padding-right:0.5rem
+}
+
+.pr-4 {
+  padding-right:1rem
+}
+
+.pr-8 {
+  padding-right:2rem
+}
+
 .pt-16 {
   padding-top:4rem
 }
@@ -2853,6 +2866,19 @@ b, strong {
 .pt-8 {
   padding-top:2rem
 }
+
+.pt-12 {
+  padding-top:3rem
+}
+
+.pt-16 {
+  padding-top:4rem
+}
+
+.pt-32 {
+  padding-top:8rem
+}
+
 
 .text-left {
   text-align:left
@@ -2902,6 +2928,11 @@ b, strong {
   line-height:1.8rem
 }
 
+.text-header {
+  font-size:1.5rem;
+  line-height:1.6rem
+}
+
 .text-lg {
   font-size:1.125rem;
   line-height:1.75rem
@@ -2944,6 +2975,11 @@ b, strong {
 
 .text-2xl {
   font-size:1.8rem;
+  line-height:1.8rem
+}
+
+.text-header-title {
+  font-size:1.9rem;
   line-height:1.8rem
 }
 
@@ -3050,6 +3086,11 @@ b, strong {
 .text-neutral-500 {
   --tw-text-opacity:1;
   color:rgba(var(--color-neutral-500), var(--tw-text-opacity))
+}
+
+.text-neutral-600 {
+  --tw-text-opacity:1;
+  color:rgba(var(--color-neutral-600), var(--tw-text-opacity))
 }
 
 .text-neutral-700 {
@@ -4120,7 +4161,7 @@ pre {
 /* Gallery Specific Styles */
 .grid-img-subtitle {
     display: grid;
-    grid-template-rows: calc(85% - 0.2rem) calc(15% - 0.2rem);
+    grid-template-rows: calc(90% - 0.2rem) calc(10% - 0.2rem);
     gap: 0.4rem;
 }
 
@@ -4145,6 +4186,12 @@ pre {
     display: grid;
     grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
     gap: 1rem;
+}
+
+.grid-col-30-70-footer {
+    display: grid;
+    grid-template-columns: calc(40% - 0.25rem) calc(60% - 0.25rem);
+    gap: 0.5rem;
 }
 
 .grid-cols-40-60 {
@@ -5027,9 +5074,25 @@ pre {
   color:rgba(var(--color-neutral), var(--tw-text-opacity))
 }
 
+.hover\:text-neutral-900:hover {
+  --tw-text-opacity:1;
+  color:rgba(var(--color-neutral-900), var(--tw-text-opacity))
+}
+
+.hover\:text-primary-450:hover {
+  --tw-text-opacity:1;
+  color:rgba(var(--color-primary-450), var(--tw-text-opacity))
+}
+
+
 .hover\:text-primary-400:hover {
   --tw-text-opacity:1;
   color:rgba(var(--color-primary-400), var(--tw-text-opacity))
+}
+
+.hover\:text-primary-100:hover {
+  --tw-text-opacity:1;
+  color:rgba(var(--color-primary-100), var(--tw-text-opacity))
 }
 
 .hover\:text-primary-500:hover {

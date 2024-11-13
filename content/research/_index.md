@@ -9,17 +9,17 @@ title: ""
     Our approach is integrative, expanding from electrophysiology, imaging, behavior, genetic manipulations, omics, to computational modeling.
 </div>
 
-
+[//]: # (TODO: extend lines to end of page)
 
 [//]: # (Elucidationg)
-<div class="border-b-1"></div>
+<div class="border-b-1 pt-4"></div>
 
-<div class="flex lg:grid-cols-2 justify-between py-2">
+<div class="flex lg:grid-cols-2 justify-between py-2 pt-8">
     <div class="flex items-center text-base text-primary-500" style="width: 20rem">
         Elucidating neural networks supporting memory encoding and consolidation
     </div>
-    <div class="flex items-center text-m italic" style="width: 26rem">
-        See how we identified a hypothalamic novelty hub and how it modulates different types of memories in the hippocampus.
+    <div class="self-center text-m italic" style="width: 26rem">
+        <u><a href="https://www.nature.com/articles/s41586-020-2771-1" class="text-neutral-900">See</a></u> how we identified a hypothalamic novelty hub and how it modulates different types of memories in the hippocampus.
     </div>
 </div>
 
@@ -45,20 +45,20 @@ title: ""
     </div>
     <div class="grid-img-subtitle h-full">
         <div class="flex justify-center"><img src="/img/research/elucidating_2.png" class="h-full"></div>
-        <div class="self-start text-subtitle">SuMsoma (top) and axons in the hippocampus (bottom).</div>
+        <div class="self-start text-subtitle">SuM soma (top) and axons in the hippocampus (bottom).</div>
     </div>
     <div class="grid-img-subtitle h-full">
         <div class="flex justify-center"><img src="/img/research/elucidating_3.jpg" class="h-full"></div>
-        <div class="self-start text-subtitle">Optogenetic identification and recording of DG- (top) and CA2 (bottom) projecting SuM neurons during behavior</div>
+        <div class="self-start text-subtitle">Optogenetic identification and recording of DG- (top) and CA2-(bottom) projecting SuM neurons during behavior</div>
     </div>
 </div>
 
 
 
 [//]: # (deciphering)
-<div class="border-b-1"></div>
+<div class="border-b-1 pt-12"></div>
 
-<div class="not-prose flex lg:grid-cols-60-40 py-2">
+<div class="not-prose flex lg:grid-cols-60-40 py-2 pt-8">
     <div class="flex grid-row-30-70 py-2">
         <div class="flex items-center text-base text-primary-500" style="width: 20rem">
             Deciphering neural computation underlying memory-guided behavior
@@ -72,9 +72,9 @@ title: ""
             we aim to dissect neural computational mechanisms underlying memory-guided complex behaviors.
         </div>
     </div>
-    <div class="grid-img-subtitle h-full">
-        <div class="flex justify-center">{{<video src="/img/research/deciphering_1.mp4" type="video/webm" preload="auto" autoplay="false">}}</div>
-        <div class="self-start text-subtitle">Optogenetic identification and recording of DG- (top) and CA2 (bottom) projecting SuM neurons during behavior</div>
+    <div class="grid-img-subtitle">
+        <div class="self-center">{{<video src="/img/research/deciphering_1.mp4" type="video/webm" preload="auto" autoplay="false">}}</div>
+        <div class="self-start text-subtitle">Goal-directed spatial navigation in T-maze</div>
     </div>
 </div>
 
@@ -82,14 +82,14 @@ title: ""
 
 
 [//]: # (Developing)
-<div class="border-b-1"></div>
+<div class="border-b-1 pt-12"></div>
 
-<div class="flex lg:grid-cols-2 justify-between py-2">
-    <div class="flex items-center text-base text-primary-500" style="width: 20rem">
+<div class="flex lg:grid-cols-2 justify-between py-2 pt-8">
+    <div class="self-center text-base text-primary-500" style="width: 20rem">
         Developing next-generation noninvasive brain machine interfaces for memory and cognitive control
     </div>
-    <div class="flex items-center text-m italic" style="width: 26rem">
-        See how we developed and showcased a minimally invasive technology, 
+    <div class="self-center text-m italic" style="width: 26rem">
+        <u><a href="https://www.science.org/doi/full/10.1126/science.aaq1144" class="text-neutral-900">See</a></u> how we developed and showcased a minimally invasive technology, 
         “near-infrared upconversion optogenetics”, for various neuromodulation applications, 
         e.g. recalling an episodic memory by transcranial NIR light.
     </div>
@@ -113,17 +113,17 @@ title: ""
 <div class="not-prose lg:grid-research-developing mx-auto article_content lg:max-w-full py-2">
     <div class="grid-img-subtitle h-full">
         <div class="flex justify-center"><img src="/img/research/developing_1.png" class="h-full"></div>
-        <div class="self-start text-subtitle">SuMsoma (top) and axons in the hippocampus (bottom).</div>
+        <div class="self-start text-subtitle"> Near-infrared optogenetics mediated by upconversion nanoparticles (UCNPs).</div>
     </div>
     <div class="grid-img-subtitle h-full">
         <div class="flex justify-center"><img src="/img/research/developing_2.png" class="h-full"></div>
-        <div class="self-start text-subtitle">Optogenetic identification and recording of DG- (top) and CA2 (bottom) projecting SuM neurons during behavior</div>
+        <div class="self-start text-subtitle">Electron micrographs of UCNPs distributed in tissue (top). UCNPs (blue) activates hippocampal engram (green)</div>
     </div>
     <div class="grid-img-subtitle h-full">
         <div class="flex justify-center">
             {{<video src="/img/research/developing_3.mp4" type="video/mp4" preload="auto" autoplay="false" height="100%">}}
         </div>
-        <div class="self-start text-subtitle">Whole-brain mapping of SuM projections by clearing.</div>
+        <div class="self-start text-subtitle">Real-time imaging of retrograde axonal transport of UCNPs.</div>
     </div>
 </div>
 
@@ -132,14 +132,14 @@ title: ""
 
 
 
-<div class="border-b-1"></div>
+<div class="border-b-1 pt-12"></div>
 
-<div class="flex lg:grid-cols-2 justify-between py-2">
+<div class="flex lg:grid-cols-2 justify-between py-2 pt-8">
     <div class="flex items-center text-base text-primary-500" style="width: 20rem">
         Linking molecular and network pathologies of Alzheimer’s disease
     </div>
-    <div class="flex items-center text-m italic" style="width: 26rem">
-        See how we demonstrated the efficacy of a peptide drug that rescues synaptic 
+    <div class="self-center text-m italic" style="width: 26rem">
+        <u><a href="https://alz.confex.com/alz/2024/meetingapp.cgi/Paper/93081" class="text-neutral-900">See</a></u> how we demonstrated the efficacy of a peptide drug that rescues synaptic 
         function and cognitive function in a mouse model of advanced-stage AD
     </div>
 </div>
