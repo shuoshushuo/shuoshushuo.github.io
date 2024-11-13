@@ -60,7 +60,8 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /*font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
+  font-family: "Aptos", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -90,12 +91,10 @@ body {
 
 hr {
   height: 0;
-  /* 1 */
   color: inherit;
-  /* 2 */
   border-top-width: 1px;
-  /* 3 */
 }
+
 
 /*
 Add the correct text decoration in Chrome, Edge, and Safari.
@@ -137,6 +136,14 @@ b,
 strong {
   font-weight: bolder;
 }
+
+/*video{*/
+/*  object-fit: fill;*/
+/*}*/
+
+/*.video-shortcode{*/
+/*  object-fit: fill;*/
+/*}*/
 
 /*
 1. Use the user's configured `mono` font-family by default.
@@ -352,6 +359,7 @@ pre {
   margin: 0;
 }
 
+
 fieldset {
   margin: 0;
   padding: 0;
@@ -449,7 +457,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 img,
 video {
   max-width: 100%;
-  height: auto;
+  object-fit: fill;
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
@@ -1160,7 +1168,7 @@ b, strong {
 }
 
 .prose {
-  --tw-prose-body:rgba(var(--color-neutral-700), 1);
+  --tw-prose-body:rgba(var(--color-neutral-900), 1);
   --tw-prose-headings:rgba(var(--color-neutral-800), 1);
   --tw-prose-lead:rgba(var(--color-neutral-500), 1);
   --tw-prose-links:rgba(var(--color-primary-600), 1);
@@ -1395,6 +1403,7 @@ b, strong {
   white-space:nowrap;
   border-width:0
 }
+
 
 .pointer-events-none {
   pointer-events:none
@@ -1802,6 +1811,14 @@ b, strong {
   height:50%
 }
 
+.h-4 {
+  height:1rem
+}
+
+.h-6 {
+  height:1.5rem
+}
+
 .h-8 {
   height:2rem
 }
@@ -1830,21 +1847,19 @@ b, strong {
   height:9rem
 }
 
-.h-2xl {
-  height:20rem
-}
-
 .h-48 {
   height:12rem
 }
 
-.h-6 {
-  height:1.5rem
+.h-2xl {
+  height:20rem
 }
 
-.h-8 {
-  height:2rem
+.h-3xl {
+  height:24rem
 }
+
+
 
 .h-\[1000px\] {
   height:1000px
@@ -1878,8 +1893,20 @@ b, strong {
   max-height:0.75rem
 }
 
+.max-h-\[4rem\] {
+  max-height:4rem
+}
+
 .max-h-\[5rem\] {
   max-height:5rem
+}
+
+.max-h-\[6rem\] {
+  max-height:6rem
+}
+
+.max-h-2 {
+  max-height:2rem
 }
 
 .max-h-6 {
@@ -1895,7 +1922,7 @@ b, strong {
 }
 
 .min-h-\[80px\] {
-  min-height:130px
+  min-height:80px
 }
 
 .min-h-\[130px\] {
@@ -1951,7 +1978,7 @@ b, strong {
 }
 
 .w-2xl {
-  width:14rem
+  width:12.5rem
 }
 
 .w-\[15\%\] {
@@ -2035,8 +2062,16 @@ b, strong {
   max-width:267px
 }
 
+.max-w-\[4rem\] {
+  max-width:4rem
+}
+
 .max-w-\[5rem\] {
   max-width:5rem
+}
+
+.max-w-\[6rem\] {
+  max-width:6rem
 }
 
 .max-w-\[64rem\] {
@@ -2220,6 +2255,10 @@ b, strong {
   gap:1rem
 }
 
+.gap-6 {
+  gap:1.5rem
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse:0;
   margin-right:calc(0.5rem * var(--tw-space-x-reverse));
@@ -2236,6 +2275,12 @@ b, strong {
   --tw-space-x-reverse:0;
   margin-right:calc(1.25rem * var(--tw-space-x-reverse));
   margin-left:calc(1.25rem * calc(1 - var(--tw-space-x-reverse)))
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse:0;
+  margin-right:calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left:calc(2.5rem * calc(1 - var(--tw-space-x-reverse)))
 }
 
 .space-y-10 > :not([hidden]) ~ :not([hidden]) {
@@ -2260,8 +2305,16 @@ b, strong {
   place-self:center
 }
 
+.self-start {
+  align-self:start
+}
+
 .self-center {
   align-self:center
+}
+
+.self-end {
+  align-self:end
 }
 
 .overflow-auto {
@@ -2381,6 +2434,17 @@ b, strong {
   border-top-width:10px;
   border-bottom-width:10px
 }
+
+.border-b-1 {
+  border-bottom-width:1px;
+  width: 100%
+}
+
+.border-1 {
+  border-width:1px;
+  width: 100%
+}
+
 
 .border-b-2 {
   border-bottom-width:2px
@@ -2664,6 +2728,11 @@ b, strong {
   padding-right:1.5rem
 }
 
+.px-32 {
+    padding-left:8rem;
+    padding-right:8rem
+  }
+
 .px-\[0\.4rem\] {
   padding-left:0.4rem;
   padding-right:0.4rem
@@ -2745,6 +2814,10 @@ b, strong {
   padding-bottom:4rem
 }
 
+.pb-8 {
+  padding-bottom:2rem
+}
+
 .pb-4 {
   padding-bottom:1rem
 }
@@ -2813,9 +2886,65 @@ b, strong {
   vertical-align:text-bottom
 }
 
-.text-2xl {
+
+/*.text-base {*/
+/*  font-size:1.2rem;*/
+/*  line-height:1.5rem*/
+/*}*/
+.text-content {
+  font-size:1.2rem;
+  font-weight:500;
+  line-height:1.5rem
+}
+
+.text-base {
   font-size:1.5rem;
-  line-height:2rem
+  line-height:1.8rem
+}
+
+.text-lg {
+  font-size:1.125rem;
+  line-height:1.75rem
+}
+
+.text-2xs {
+  font-size:0.5rem;
+  line-height:1rem
+}
+
+.text-xs {
+  font-size:0.75rem;
+  line-height:1rem
+}
+
+.text-subtitle {
+  font-size:0.82rem;
+  line-height:1rem
+}
+
+.text-sm {
+  font-size:0.875rem;
+  line-height:1.25rem
+}
+
+.text-m {
+  font-size:0.95rem;
+  line-height:1.1rem
+}
+
+.text-m-research {
+  font-size:1.15rem;
+  line-height:1.4rem
+}
+
+.text-xl {
+  font-size:1.25rem;
+  line-height:1.75rem
+}
+
+.text-2xl {
+  font-size:1.8rem;
+  line-height:1.8rem
 }
 
 .text-4xl {
@@ -2832,35 +2961,6 @@ b, strong {
   font-size:0.6rem
 }
 
-/*.text-base {*/
-/*  font-size:1.2rem;*/
-/*  line-height:1.5rem*/
-/*}*/
-
-.text-base {
-  font-size:1.5rem;
-  line-height:1.8rem
-}
-
-.text-lg {
-  font-size:1.125rem;
-  line-height:1.75rem
-}
-
-.text-sm {
-  font-size:0.875rem;
-  line-height:1.25rem
-}
-
-.text-xl {
-  font-size:1.25rem;
-  line-height:1.75rem
-}
-
-.text-xs {
-  font-size:0.75rem;
-  line-height:1rem
-}
 
 .font-bold {
   font-weight:700
@@ -2879,7 +2979,7 @@ b, strong {
 }
 
 .font-normal {
-  font-weight:400
+  font-weight:500
 }
 
 .font-semibold {
@@ -3906,6 +4006,13 @@ pre {
   background-position:center;
 }
 
+.people_card {
+  height: 300px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
 .thumbnail_card_related {
   height: 150px;
   background-repeat:no-repeat;
@@ -4011,6 +4118,52 @@ pre {
 }
 
 /* Gallery Specific Styles */
+.grid-img-subtitle {
+    display: grid;
+    grid-template-rows: calc(85% - 0.2rem) calc(15% - 0.2rem);
+    gap: 0.4rem;
+}
+
+.grid-img-subtitle-no-gap {
+    display: grid;
+    grid-template-rows: calc(88%) calc(12%)
+}
+
+.grid-row-30-70 {
+    display: grid;
+    grid-template-rows: calc(30% - 0.5rem) calc(70% - 0.5rem);
+    gap: 1rem;
+}
+
+.grid-row-50-50 {
+    display: grid;
+    grid-template-rows: calc(50% - 0.5rem) calc(50% - 0.5rem);
+    gap: 1rem;
+}
+
+.grid-col-50-50 {
+    display: grid;
+    grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+    gap: 1rem;
+}
+
+.grid-cols-40-60 {
+    display: grid;
+    grid-template-columns: calc(40% - 1rem) calc(60% - 1rem);
+    gap: 2rem;
+}
+
+.grid-cols-60-40 {
+    display: grid;
+    grid-template-columns: calc(60% - 1rem) calc(40% - 1rem);
+    gap: 2rem;
+}
+
+.grid-cols-50-50 {
+    display: grid;
+    grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
+    gap: 2rem;
+}
 
 .grid-w10 {
   width: calc(10% - 5px);
@@ -5500,6 +5653,30 @@ pre {
     display: grid;
     grid-template-columns: calc(40% - 2rem) calc(60% - 2rem);
     gap: 4rem;
+  }
+
+  .lg\:grid-cols-60-40 {
+    display: grid;
+    grid-template-columns: calc(60% - 1rem) calc(40% - 1rem);
+    gap: 2rem;
+  }
+
+  .lg\:grid-cols-45-55 {
+    display: grid;
+    grid-template-columns: calc(45% - 1rem) calc(55% - 1rem);
+    gap: 2rem;
+  }
+
+  .lg\:grid-research-elucidating {
+    display: grid;
+    grid-template-columns: calc(25% - 0.6rem) calc(30% - 0.6rem) calc(45% - 0.6rem);
+    gap: 0.9rem;
+  }
+
+  .lg\:grid-research-developing {
+    display: grid;
+    grid-template-columns: calc(30% - 0.6rem) calc(40% - 0.6rem) calc(30% - 0.6rem);
+    gap: 0.9rem;
   }
 
   .lg\:flex-row {

@@ -16,12 +16,10 @@ content_left: |
 
 content_right: |
   *How do neural networks ***encode and store*** episodic and semantic information?*
-
-  <br/>
+  <div class="pb-2"></div>
 
   *How is stored information ***retrieved and utilized*** to support cognitive processes like planning and thinking?*
-
-  <br/>
+  <div class="pb-2"></div>
 
   *What ***molecules underpin memory*** processes, especially memory storage?*
   

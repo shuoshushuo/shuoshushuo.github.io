@@ -375,6 +375,13 @@ pre {
   background-position:center;
 }
 
+.people_card {
+  height: 300px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+}
+
 .thumbnail_card_related {
   height: 150px;
   background-repeat:no-repeat;

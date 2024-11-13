@@ -3,7 +3,9 @@ title: Shuo Chen
 
 user_group: "Current Members"
 
-role: 'Research Scientist at Nathan Kline Institute, Assistant Professor at NYU Grossman School of Medicine'
+role: 'Principle Investigator'
+
+affiliation:
 
 externalUrl: 
 

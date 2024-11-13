@@ -3,13 +3,15 @@ title: Cong Li
 
 user_group: "Visiting Scholars"
 
-role: 'M.S. in Biology'
+role: 'Visiting Student'
+
+affiliation: 'USTC'
 
 externalUrl: 
 
 summary: ""
 
-weight: 2
+weight: 4
 
 ---
 

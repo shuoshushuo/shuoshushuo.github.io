@@ -3,13 +3,15 @@ title: Xiaoyi Yang
 
 user_group: "Visiting Scholars"
 
-role: 'B.S. in Biology'
+role: 'Visiting Student'
+
+affiliation: 'USTC'
 
 externalUrl: 
 
 summary: ""
 
-weight: 2
+weight: 4
 
 ---
 

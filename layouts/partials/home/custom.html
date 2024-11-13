@@ -1,9 +1,9 @@
-<div class="relative pt-4 pb-32">
+<div class="relative pt-4 pb-16">
     <div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
     <div class="relative">
         {{ with .Title }}
         <header>
-            <h1 class="text-4xl font-extrabold">{{ . | emojify }}</h1>
+            <h1 class="text-4xl">{{ . | emojify }}</h1>
         </header>
         {{ end }}
         <div class="mx-auto lg:grid lg:max-w-full lg:px-0 py-8 lg:m-0">
@@ -17,6 +17,7 @@
             {{ end }}
             {{ if $homepageImage }}
                 <img class="w-full" src="{{ $homepageImage.RelPermalink }}">
+                <div class="w-full text-xs" style="padding-top:0.5rem;">{{ .Site.Params.homepage.homepageImage_description }}</div>
             {{ else }}
                 <p>Homepage image not found</p>
             {{ end }}
@@ -24,13 +25,13 @@
 
         <section>{{ .Content | emojify }}</section>
 
-        <div class="mx-auto article_content lg:grid lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-40-60">
+        <div class="mx-auto article_content lg:max-w-full lg:grid-flow-col-dense lg:grid-cols-40-60 text-content">
             {{ with .Params.content_left }}
                 <div class="mx-auto px-4 lg:mx-0 lg:max-w-none lg:py-0 lg:px-0">
                     {{ . | markdownify }}
                 </div>
             {{ end }}
-            <div class="grid mx-auto px-4 lg:mx-0 lg:max-w-none lg:py-0 lg:px-0 py-4">
+            <div class="grid mx-auto px-4 lg:mx-0 lg:max-w-none lg:py-0 lg:px-0 py-4" style="gap: 1rem;">
                 {{ with .Params.content_right }}
                     <div class="mx-auto lg:mx-0 lg:max-w-none lg:py-0 lg:px-0">
                         {{ . | emojify | markdownify }}
@@ -47,6 +48,7 @@
                     {{ end }}
                     {{ if $homepageImage2 }}
                         <img class="h-auto w-auto" src="{{ $homepageImage2.RelPermalink }}">
+                        <div class="w-full text-xs" style="padding-top:0.5rem;">{{ .Site.Params.homepage.homepageImage_2_description }}</div>
                     {{ end }}
                 </div>
             </div>

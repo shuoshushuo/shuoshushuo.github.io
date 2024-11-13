@@ -3,13 +3,15 @@ title: Tyra Nguyen
 
 user_group: "Current Members"
 
-role: 'B.S. in Biology'
+role: 'Undergraduate Researcher'
+
+affiliation: 'NYU'
 
 externalUrl: 
 
 summary: ""
 
-weight: 2
+weight: 3
 
 ---
 

@@ -1,7 +1,7 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Shuo Lab"
+title = "ChenLab"
 
 [params]
   displayName = "English"
@@ -12,7 +12,7 @@ title = "Shuo Lab"
   description = "A powerful, lightweight theme for Hugo."
 
 [author]
-  name = "Chen Lab"
+  name = "ChenLab"
   image = "img/logo.png"
 #  image_may = "img/may_logo.png"
   headline = ""
