@@ -60,9 +60,8 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  /*TODO: font use Aptos-Narrow*/
   /*font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";*/
-  font-family: "Aptos-Narrow", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Aptos", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -2051,6 +2050,11 @@ b, strong {
   max-width:60rem
 }
 
+.max-w-page {
+  max-width:100rem
+}
+
+
 .max-w-\[1600px\] {
   max-width:1600px
 }
@@ -2964,8 +2968,8 @@ b, strong {
 }
 
 .text-m-research {
-  font-size:1.15rem;
-  line-height:1.4rem
+  font-size:1.2rem;
+  line-height:1.5rem
 }
 
 .text-xl {

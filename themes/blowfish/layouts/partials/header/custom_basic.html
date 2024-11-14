@@ -1,5 +1,5 @@
 <div style="padding-top:2px;padding-bottom:8px"
-    class="m-auto main-menu flex items-center px-4 py-6 sm:px-6 md:justify-start space-x-3 sm:px-14 md:px-24 lg:px-32 max-w-4xl">
+    class="m-auto main-menu flex items-center py-6 sm:px-6 md:justify-start space-x-3 sm:px-14 md:px-24 lg:px-32 max-w-page">
     {{ if .Site.Params.Logo }}
     {{ $logo := resources.Get .Site.Params.Logo }}
     {{ if $logo }}
@@ -105,7 +105,7 @@
 </div>
 
 <!-- menu buttons -->
-<div class="m-auto sm:px-14 md:px-24 lg:px-32 max-w-4xl" style="padding-top:1px;padding-bottom:3px">
+<div class="m-auto sm:px-14 md:px-24 lg:px-32 max-w-page" style="padding-top:1px;padding-bottom:3px">
     <nav class="hidden md:flex space-x-10 h-6" style="padding-bottom: 1rem">
         {{ if .Site.Menus.main }}
             {{ range .Site.Menus.main }}

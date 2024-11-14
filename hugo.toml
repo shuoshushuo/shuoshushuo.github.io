@@ -1,4 +1,4 @@
-baseURL = 'https://chenlab.github.io'
+baseURL = 'https://shuolab.github.io'
 languageCode = 'en-us'
 title = 'ChenLab'
 theme = 'blowfish'

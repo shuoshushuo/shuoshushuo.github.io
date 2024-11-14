@@ -73,7 +73,7 @@ title: ""
         </div>
     </div>
     <div class="grid-img-subtitle">
-        <div class="self-center">{{<video src="/img/research/deciphering_1.mp4" type="video/webm" preload="auto" autoplay="false">}}</div>
+        <div class="self-center">{{<video src="/img/research/deciphering_1.mp4" type="video/mp4" preload="auto" autoplay="false">}}</div>
         <div class="self-start text-subtitle">Goal-directed spatial navigation in T-maze</div>
     </div>
 </div>
@@ -157,8 +157,8 @@ title: ""
 
 <div class="not-prose grid-cols-50-50 mx-auto article_content lg:max-w-full py-2">
     <div class="grid-img-subtitle-no-gap h-full">
-        <div class="flex items-start h-full">
-            <video src="/img/research/linking_1.mp4" type="video/webm" preload="auto" autoplay="false" height="100%">
+        <div class="flex items-start w-full">
+            {{<video src="/img/research/linking_1.mp4" type="video/webm" preload="auto" autoplay="false" width="100%" height="105%">}}
         </div>
         <div class="self-end text-subtitle">
              In <em>vivo</em> calcium imaging to probe hippocampal neural dynamics in the AD brain.

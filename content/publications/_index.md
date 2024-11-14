@@ -3,7 +3,7 @@ title: ""
 
 ---
 
-<div class="text-primary-500 text-2xl"> Select Publications </div>
+<div class="text-primary-500 text-2xl"> Selected Publications </div>
 <div class="border-b-1 py-1"></div>
 
 Chen S, He LM, Huang AJY, Boehringer R, Robert V, Wintzer ME, Polygalov D, Weitemier AZ, Tao YQ, Gu MX, 

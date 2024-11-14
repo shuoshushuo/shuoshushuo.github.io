@@ -13,8 +13,7 @@ title = "ChenLab"
 
 [author]
   name = "ChenLab"
-  image = "img/logo.png"
-#  image_may = "img/may_logo.png"
+  image = "img/logo_tight.png"
   headline = ""
   bio = ""
   links = [
