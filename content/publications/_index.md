@@ -3,8 +3,11 @@ title: ""
 
 ---
 
-<div class="text-primary-500 text-2xl"> Selected Publications </div>
+<div class="text-primary-500 text-2xl pt-8"> Selected Publications </div>
 <div class="border-b-1 py-1"></div>
+
+Chen S, McHugh TJ. [Further-reaching optogenetics](https://www.nature.com/articles/s41551-020-00648-y). 
+*Nature Biomedical Engineering*. 4:1028-1029 (2020).
 
 Chen S, He LM, Huang AJY, Boehringer R, Robert V, Wintzer ME, Polygalov D, Weitemier AZ, Tao YQ, Gu MX, 
 Namiki K, Hama H, Therreau L, Hioki H, Miyawaki A, Piskorowski RA, McHugh TJ. 
@@ -33,11 +36,16 @@ KL, Okabe S, Loong Teh DB, All AH, Tsutsui-Kimura I, Tanaka KF, Liu X, McHugh TJ
 <span class="text-neutral-900">
 Featured in: <br/>
 <a href="https://www.science.org/doi/10.1126/science.aar7379?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed" class="text-neutral-900">
-    *Science Perspective*: Toward an optically controlled brain
+    *Science* Perspective: Toward an optically controlled brain
 </a>
 <br>
 <a href="https://www.nature.com/articles/nmeth.4654" class="text-neutral-900">
     *Nature Methods* Research Highlights: Minimally invasive optogenetics
+</a>
+<br>
+<a href="https://www.sciencedirect.com/science/article/pii/S2095927318301166" class="text-neutral-900">
+    *Science Bulletin* Research Highlight: 
+    Upconversion nanoparticle mediated optogenetics for targeted deep brain stimulation
 </a>
 </span>
 
@@ -56,6 +64,11 @@ Chen S, Itoh Y, Masuda T, Shimizu S, Zhao J, Ma J, Nakamura S, Okuro K, Noguchi 
 
 <div class="text-primary-500 text-2xl pt-12"> All Publications </div>
 <div class="border-b-1 py-1"></div>
+
+Chen S, Lam N, Li Z, Wang D, Liu P, Berbano V, Xie Y, Nguyen T, Xu Y, Yang J, Ha K, Semana L, Dias R, Masurkar AV, 
+Wisniewski T. 
+[Acute Aβ12-28P administration targeting apoE/Aβ interaction rescues synaptic function and cognitive decline in advanced-stage Alzheimer’s disease](https://alz-journals.onlinelibrary.wiley.com/doi/abs/10.1002/alz.093081).
+*Alzheimer’s & Dementia.*. 20:e093081 (2025).
 
 Mao H, Tang J, Day GS, Peng Y, Wang H, Xiao X, Yang Y, Jiang Y, Chen S, Halat DM, Lund A, Lv X, Zhang W, Yang C, 
 Lin Z, Zhou HC, Pines A, Cui Y, Reimer JA. 
@@ -85,7 +98,7 @@ Wu J, Liang Y, Chen S, Hsu CL, Chavarha M, Evans SW, Shi D, Lin MZ, Tsia KK, Ji 
 
 Mao H, Tang J, Xu J, Peng Y, Chen J, Wu B, Jiang Y, Hou K, Chen S, Wang J, Lee HR, Halat DM, 
 Zhang B, Chen W, Plantz AZ, Lu Z, Cui Y, Reimer JA. 
-[Revealing molecular mechanisms in hierarchical nanoporous carbon via nuclear magnetic resonance.(https://www.cell.com/matter/fulltext/S2590-2385(20)30522-1?_hsenc=p2ANqtz-9FY3v1NP61NXPDvuHpfUkJWS90MuC-kmBUk0rodLK-8Lq3LRq8Y55vHzgw38Osyjg3b9aK).
+[Revealing molecular mechanisms in hierarchical nanoporous carbon via nuclear magnetic resonance](https://www.cell.com/matter/fulltext/S2590-2385(20)30522-1?_hsenc=p2ANqtz-9FY3v1NP61NXPDvuHpfUkJWS90MuC-kmBUk0rodLK-8Lq3LRq8Y55vHzgw38Osyjg3b9aK).
 *Matter. 3*: 2093–2107 (2020). 
 
 Fu T, Xing H, Silver ES, Itoh Y, Chen S, Masuda T, Uosaki K, Huang F, Aida T. 

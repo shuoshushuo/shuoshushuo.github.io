@@ -127,6 +127,11 @@ a {
   color: inherit;
   text-decoration: inherit;
 }
+a:hover {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+}
+
 
 /*
 Add the correct font weight in Edge and Safari.
@@ -822,7 +827,7 @@ select {
 }
 
 .prose :where(a):not(:where([class~="not-prose"],[class~="not-prose"] *)):hover {
-  color:rgba(var(--color-primary-600), 1);
+  color:rgba(var(--color-primary-500), 1);
   text-decoration:none;
   border-radius:0.09rem
 }
@@ -1981,6 +1986,19 @@ b, strong {
   width:12.5rem
 }
 
+.w-4xl {
+  width:25rem
+}
+
+.w-6xl {
+  width:37rem
+}
+
+
+.w-footer-name {
+  width:12rem
+}
+
 .w-\[15\%\] {
   width:15%
 }
@@ -2094,6 +2112,27 @@ b, strong {
 
 .max-w-full {
   max-width:100%
+}
+
+.max-w-50 {
+  max-width:50%
+}
+
+.max-w-linking-2 {
+  max-width:65%
+}
+
+
+.max-w-40 {
+  max-width:40%
+}
+
+.max-w-35 {
+  max-width:35%
+}
+
+.max-w-30 {
+  max-width:30%
 }
 
 .max-w-80 {
@@ -2252,8 +2291,16 @@ b, strong {
   justify-content:center
 }
 
+.justify-start {
+  justify-content:start
+}
+
 .justify-between {
   justify-content:space-between
+}
+
+.gap-2 {
+  gap:0.5rem
 }
 
 .gap-4 {
@@ -2819,6 +2866,10 @@ b, strong {
   padding-bottom:4rem
 }
 
+.pb-12 {
+  padding-bottom:3rem
+}
+
 .pb-8 {
   padding-bottom:2rem
 }
@@ -2829,6 +2880,14 @@ b, strong {
 
 .pl-2 {
   padding-left:0.5rem
+}
+
+.pl-3 {
+  padding-left:1rem
+}
+
+.pl-4 {
+  padding-left:0.75rem
 }
 
 .pl-\[24px\] {
@@ -2866,6 +2925,11 @@ b, strong {
 .pt-4 {
   padding-top:1rem
 }
+
+.pt-6 {
+  padding-top:1.5rem
+}
+
 
 .pt-8 {
   padding-top:2rem
@@ -2922,14 +2986,19 @@ b, strong {
 /*  line-height:1.5rem*/
 /*}*/
 .text-content {
-  font-size:1.2rem;
+  font-size:1.3rem;
   font-weight:500;
-  line-height:1.5rem
+  line-height:1.8rem
 }
 
 .text-base {
   font-size:1.5rem;
   line-height:1.8rem
+}
+
+.text-research-title {
+  font-size:1.8rem;
+  line-height:2rem
 }
 
 .text-header {
@@ -2953,7 +3022,12 @@ b, strong {
 }
 
 .text-subtitle {
-  font-size:0.82rem;
+  font-size:1rem;
+  line-height:1.2rem
+}
+
+.text-footer {
+  font-size:0.9rem;
   line-height:1rem
 }
 
@@ -2968,8 +3042,8 @@ b, strong {
 }
 
 .text-m-research {
-  font-size:1.2rem;
-  line-height:1.5rem
+  font-size:1.3rem;
+  line-height:1.8rem
 }
 
 .text-xl {
@@ -4169,6 +4243,12 @@ pre {
     gap: 0.4rem;
 }
 
+.grid-img-subtitle-lg {
+    display: grid;
+    grid-template-rows: calc(80% - 0.2rem) calc(20% - 0.2rem);
+    gap: 0.4rem;
+}
+
 .grid-img-subtitle-no-gap {
     display: grid;
     grid-template-rows: calc(88%) calc(12%)
@@ -4214,6 +4294,12 @@ pre {
     display: grid;
     grid-template-columns: calc(50% - 1rem) calc(50% - 1rem);
     gap: 2rem;
+}
+
+.grid-linking {
+    display: grid;
+    grid-template-columns: calc(42% - 1rem) calc(20% - 1rem) calc(28% - 1rem);
+    gap: 1.5rem;
 }
 
 .grid-w10 {
@@ -5489,7 +5575,8 @@ pre {
   }
 
   .sm\:grid-cols-2 {
-    grid-template-columns:repeat(2, minmax(0, 1fr))
+    grid-template-columns:repeat(2, minmax(0, 1fr));
+    justify-items: center;
   }
 
   .sm\:flex-row {
@@ -5567,11 +5654,18 @@ pre {
   }
 
   .md\:grid-cols-3 {
-    grid-template-columns:repeat(3, minmax(0, 1fr))
+    grid-template-columns:repeat(3, minmax(0, 1fr));
+    justify-items: center;
   }
 
   .md\:grid-cols-4 {
-    grid-template-columns:repeat(4, minmax(0, 1fr))
+    grid-template-columns:repeat(4, minmax(0, 1fr));
+    justify-items: center;
+  }
+
+  .md\:grid-cols-5 {
+    grid-template-columns:repeat(5, minmax(0, 1fr));
+    justify-items: center;
   }
 
   .md\:justify-start {
@@ -5736,14 +5830,14 @@ pre {
 
   .lg\:grid-research-elucidating {
     display: grid;
-    grid-template-columns: calc(25% - 0.6rem) calc(30% - 0.6rem) calc(45% - 0.6rem);
-    gap: 0.9rem;
+    grid-template-columns: calc(25% - 1rem) calc(30% - 1rem) calc(45% - 1rem);
+    gap: 1.5rem;
   }
 
   .lg\:grid-research-developing {
     display: grid;
-    grid-template-columns: calc(30% - 0.6rem) calc(40% - 0.6rem) calc(30% - 0.6rem);
-    gap: 0.9rem;
+    grid-template-columns: calc(30% - 1rem) calc(35% - 1rem) calc(35% - 1rem);
+    gap: 1.5rem;
   }
 
   .lg\:flex-row {

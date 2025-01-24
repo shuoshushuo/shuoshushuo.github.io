@@ -1,8 +1,8 @@
 {{ $disableImageOptimization := .Page.Site.Params.disableImageOptimization | default false }}
 {{ with .Params.externalUrl }}
-<a href="{{ . }}" target="_blank" rel="external" class="min-w-full">
-    {{ end }}
-    <div class="bg-neutral-100 min-h-full w-2xl relative">
+    <a href="{{ . }}" target="_blank" rel="external" class="bg-neutral-100 min-h-full w-2xl">
+{{ end }}
+    <div class="bg-neutral-100 min-h-full w-2xl">
       {{- with $.Params.images -}}
         {{- range first 6 . }}
         <meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
@@ -54,12 +54,12 @@
           <div class="text-xl text-primary-500 decoration-primary-500 dark:text-neutral">{{ .Title | emojify }}</div>
         {{ end }}
 
-        <div class="text-sm dark:prose-invert" style="padding-top:0.25rem">
+        <div class="text-lg dark:prose-invert" style="padding-top:0.25rem">
           {{ .Params.role | emojify }}
         </div>
 
         {{ with .Params.affiliation }}
-            <div class="text-sm dark:prose-invert">
+            <div class="text-lg dark:prose-invert">
               ({{ . | emojify }})
             </div>
         {{ end }}

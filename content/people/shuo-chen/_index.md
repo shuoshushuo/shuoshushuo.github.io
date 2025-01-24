@@ -7,7 +7,7 @@ role: 'Principle Investigator'
 
 affiliation:
 
-externalUrl: 
+externalUrl: https://med.nyu.edu/faculty/shuo-chen
 
 summary: ""
 

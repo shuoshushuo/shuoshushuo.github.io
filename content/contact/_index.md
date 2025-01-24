@@ -4,12 +4,12 @@ description: "Benchmark experiments"
 
 ---
 
-We belong to [<u>Emotional Brain Institute</u>](https://www.nki.rfmh.org/research/emotional-brain-institute-ebi/)
-of the [<u>Nathan Kline Institute for Psychiatric Research (NKI)</u>](https://www.nki.rfmh.org/)
-and [<u>Department of Psychiatry, New York University School of Medicine (NYU SoM)</u>](https://med.nyu.edu/departments-institutes/psychiatry/education).
+Our lab is affiliated with the [<u>Emotional Brain Institute</u>](https://www.nki.rfmh.org/research/emotional-brain-institute-ebi/)
+at the [<u>Nathan Kline Institute for Psychiatric Research (NKI)</u>](https://www.nki.rfmh.org/)
+and the [<u>Department of Psychiatry, New York University School of Medicine (NYU SoM)</u>](https://med.nyu.edu/departments-institutes/psychiatry/).
 
-There are daily shuttles connecting NYU SoM or Washington Heights (Manhattan) with NKI. 
-It's a 20 min drive from upper Manhattan to the lab.
+We are located within a 20-minute drive of Upper Manhattan.
+There are daily shuttles connecting NYU SoM or Washington Heights (Manhattan) with NKI.
 
 <div class="grid-cols-50-50 max-w-full lg:grid-flow-col-dense py-4">
     <div>
@@ -31,4 +31,6 @@ It's a 20 min drive from upper Manhattan to the lab.
 <span class="text-primary-500 text-2xl"> Join Us! </span>
 
 We are currently recruiting at all levels (postdocs, PhD students, Master’s students, and undergraduate researchers). 
-If you are interested, please [email](mailto:shuo.chen@nki.rfmh.org;shuo.chen@nyulangone.org) the PI with your CV.
+If you are interested, please email the PI with your CV.
+
+<div class="pb-32"></div>

@@ -3,7 +3,7 @@ title: Tyra Nguyen
 
 user_group: "Current Members"
 
-role: 'Undergraduate Researcher'
+role: 'Undergraduate'
 
 affiliation: 'NYU'
 

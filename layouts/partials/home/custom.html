@@ -37,7 +37,7 @@
                         {{ . | emojify | markdownify }}
                     </div>
                 {{ end }}
-                <div class="relative mx-auto lg:mx-0 lg:max-w-none lg:py-0 lg:px-0 py-4">
+                <div class="relative self-end mx-auto lg:mx-0 lg:max-w-none lg:py-0 lg:px-0 py-4">
                     {{ $homepageImage2 := "" }}
                     {{ with .Site.Params.homepage.homepageImage_2 }}
                         {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
